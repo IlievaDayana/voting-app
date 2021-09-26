@@ -9668,6 +9668,10 @@ select {
   --tw-rotate: 90deg;
 }
 
+.rotate-140 {
+  --tw-rotate: 140deg;
+}
+
 .rotate-180 {
   --tw-rotate: 180deg;
 }
@@ -9736,6 +9740,10 @@ select {
   --tw-rotate: 90deg;
 }
 
+.hover\:rotate-140:hover {
+  --tw-rotate: 140deg;
+}
+
 .hover\:rotate-180:hover {
   --tw-rotate: 180deg;
 }
@@ -9802,6 +9810,10 @@ select {
 
 .focus\:rotate-90:focus {
   --tw-rotate: 90deg;
+}
+
+.focus\:rotate-140:focus {
+  --tw-rotate: 140deg;
 }
 
 .focus\:rotate-180:focus {
@@ -34026,6 +34038,10 @@ select {
     --tw-rotate: 90deg;
   }
 
+  .sm\:rotate-140 {
+    --tw-rotate: 140deg;
+  }
+
   .sm\:rotate-180 {
     --tw-rotate: 180deg;
   }
@@ -34094,6 +34110,10 @@ select {
     --tw-rotate: 90deg;
   }
 
+  .sm\:hover\:rotate-140:hover {
+    --tw-rotate: 140deg;
+  }
+
   .sm\:hover\:rotate-180:hover {
     --tw-rotate: 180deg;
   }
@@ -34160,6 +34180,10 @@ select {
 
   .sm\:focus\:rotate-90:focus {
     --tw-rotate: 90deg;
+  }
+
+  .sm\:focus\:rotate-140:focus {
+    --tw-rotate: 140deg;
   }
 
   .sm\:focus\:rotate-180:focus {
@@ -58306,6 +58330,10 @@ select {
     --tw-rotate: 90deg;
   }
 
+  .md\:rotate-140 {
+    --tw-rotate: 140deg;
+  }
+
   .md\:rotate-180 {
     --tw-rotate: 180deg;
   }
@@ -58374,6 +58402,10 @@ select {
     --tw-rotate: 90deg;
   }
 
+  .md\:hover\:rotate-140:hover {
+    --tw-rotate: 140deg;
+  }
+
   .md\:hover\:rotate-180:hover {
     --tw-rotate: 180deg;
   }
@@ -58440,6 +58472,10 @@ select {
 
   .md\:focus\:rotate-90:focus {
     --tw-rotate: 90deg;
+  }
+
+  .md\:focus\:rotate-140:focus {
+    --tw-rotate: 140deg;
   }
 
   .md\:focus\:rotate-180:focus {
@@ -82586,6 +82622,10 @@ select {
     --tw-rotate: 90deg;
   }
 
+  .lg\:rotate-140 {
+    --tw-rotate: 140deg;
+  }
+
   .lg\:rotate-180 {
     --tw-rotate: 180deg;
   }
@@ -82654,6 +82694,10 @@ select {
     --tw-rotate: 90deg;
   }
 
+  .lg\:hover\:rotate-140:hover {
+    --tw-rotate: 140deg;
+  }
+
   .lg\:hover\:rotate-180:hover {
     --tw-rotate: 180deg;
   }
@@ -82720,6 +82764,10 @@ select {
 
   .lg\:focus\:rotate-90:focus {
     --tw-rotate: 90deg;
+  }
+
+  .lg\:focus\:rotate-140:focus {
+    --tw-rotate: 140deg;
   }
 
   .lg\:focus\:rotate-180:focus {
@@ -106866,6 +106914,10 @@ select {
     --tw-rotate: 90deg;
   }
 
+  .xl\:rotate-140 {
+    --tw-rotate: 140deg;
+  }
+
   .xl\:rotate-180 {
     --tw-rotate: 180deg;
   }
@@ -106934,6 +106986,10 @@ select {
     --tw-rotate: 90deg;
   }
 
+  .xl\:hover\:rotate-140:hover {
+    --tw-rotate: 140deg;
+  }
+
   .xl\:hover\:rotate-180:hover {
     --tw-rotate: 180deg;
   }
@@ -107000,6 +107056,10 @@ select {
 
   .xl\:focus\:rotate-90:focus {
     --tw-rotate: 90deg;
+  }
+
+  .xl\:focus\:rotate-140:focus {
+    --tw-rotate: 140deg;
   }
 
   .xl\:focus\:rotate-180:focus {
@@ -131146,6 +131206,10 @@ select {
     --tw-rotate: 90deg;
   }
 
+  .\32xl\:rotate-140 {
+    --tw-rotate: 140deg;
+  }
+
   .\32xl\:rotate-180 {
     --tw-rotate: 180deg;
   }
@@ -131214,6 +131278,10 @@ select {
     --tw-rotate: 90deg;
   }
 
+  .\32xl\:hover\:rotate-140:hover {
+    --tw-rotate: 140deg;
+  }
+
   .\32xl\:hover\:rotate-180:hover {
     --tw-rotate: 180deg;
   }
@@ -131280,6 +131348,10 @@ select {
 
   .\32xl\:focus\:rotate-90:focus {
     --tw-rotate: 90deg;
+  }
+
+  .\32xl\:focus\:rotate-140:focus {
+    --tw-rotate: 140deg;
   }
 
   .\32xl\:focus\:rotate-180:focus {

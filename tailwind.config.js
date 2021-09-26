@@ -34,6 +34,9 @@ module.exports = {
             },
             fontSize: {
                 xxs: ['0.625rem', { lineHeight: '1rem' }],
+            },
+            rotate: {
+                140: '140deg',
             }
         },
     },
