@@ -40,7 +40,7 @@
                     <img src="https://randomuser.me/api/portraits/women/22.jpg" alt="avatar" class="w-14 h-14 rounded-xl" >
                 </a>
             </div>     
-            <div class="mx-4">
+            <div class="mx-4 w-full">
                 <h4 class="text-xl font-semibold mt-3">
                     <a href="#" class="hover:underline">A random title can go here</a>
                 </h4>
@@ -88,7 +88,7 @@
                     <img src="https://randomuser.me/api/portraits/women/15.jpg" alt="avatar" class="w-14 h-14 rounded-xl" >
                 </a>
             </div>     
-            <div class="mx-4">
+            <div class="mx-4 w-full">
                 <h4 class="text-xl font-semibold mt-3">
                     <a href="#" class="hover:underline">A random title can go here</a>
                 </h4>
@@ -136,7 +136,7 @@
                     <img src="https://randomuser.me/api/portraits/women/18.jpg" alt="avatar" class="w-14 h-14 rounded-xl" >
                 </a>
             </div>     
-            <div class="mx-4">
+            <div class="mx-4 w-full">
                 <h4 class="text-xl font-semibold mt-3">
                     <a href="#" class="hover:underline">A random title can go here</a>
                 </h4>
@@ -179,16 +179,16 @@
                     </button>
                 </div>
             </div>     
-            <div class="mt-8  flex-none">
+            <div class="mt-8 flex-none">
                 <a href="">
                     <img src="https://randomuser.me/api/portraits/women/1.jpg" alt="avatar" class="w-14 h-14 rounded-xl" >
                 </a>
             </div>     
-            <div class="mx-4">
+            <div class="mx-4 w-full">
                 <h4 class="text-xl font-semibold mt-3">
                     <a href="#" class="hover:underline">A random title can go here</a>
                 </h4>
-                <div class="text-gray-600 mt-3 line-clamp-3">icing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque architecto beatae delectus numquam quas officiis iste impedit tempore hic quam! Autem soluta possimus expedita comlmo Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam dicta culpa dolores perferendis vitae modi blanditiis ea, velit asperiores excepturi!</div>
+                <div class="text-gray-600 mt-3 line-clamp-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit</div>
                 <div class="flex item-cener justify-between mt-6">
                     <div class="flex items-center text-xs font-semibold text-gray-400 space-x-2 mb-6">
                         <div>10 hours ago</div>
@@ -232,7 +232,7 @@
                     <img src="https://randomuser.me/api/portraits/women/7.jpg" alt="avatar" class="w-14 h-14 rounded-xl" >
                 </a>
             </div>     
-            <div class="mx-4">
+            <div class="mx-4 w-full">
                 <h4 class="text-xl font-semibold mt-3">
                     <a href="#" class="hover:underline">A random title can go here</a>
                 </h4>

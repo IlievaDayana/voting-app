@@ -50,7 +50,7 @@
                         <h3 class="font-semibold text-center my-2">Add an idea</h3>
                         <p class="text-center text-xs">Let us know what you like and will review it</p> 
                     </div>
-                    <form action="#" method="POST" class="space-y-4 px-4 py-6">
+                    <form action="#" method="POST" class="space-y-4">
                         <div>
                             <input type="text" class="w-full bg-gray-100  text-sm rounded-xl border-none placeholder-gray-900 px-4 py-2" placeholder="Your Idea">
                         </div>
