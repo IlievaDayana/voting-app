@@ -48,12 +48,24 @@
         </div><!-- end idea -->
         <div class="flex justify-between items-center w-full h-6">
             <div class="flex">
-                <div class="relative">
+                <div x-data="{isOpen: false}" class="relative">
                     <button type="button" 
+                        @click="isOpen = !isOpen"
                         class="flex justify-center items-center mx-3 text-xs text-center w-28 h-11 rounded-xl font-semibold border text-white border-blue bg-blue hover:border-blue transition duration-150 ease-in">
                         <span>Reply</span>  
                     </button>
-                    <div class="absolute z-10 w-104 text-left font-semibold text-sm bg-white rounded-xl mt-2 shadow-md">
+                    <div 
+                        x-cloak
+                        x-show="isOpen"
+                        x-transition:enter="transition ease-out duration-300"
+                        x-transition:enter-start="opacity-0 transform scale-90"
+                        x-transition:enter-end="opacity-100 transform scale-100"
+                        x-transition:leave="transition ease-in duration-300"
+                        x-transition:leave-start="opacity-100 transform scale-100"
+                        x-transition:leave-end="opacity-0 transform scale-90"
+                        @click.away="isOpen = false"
+                        class="absolute z-20 w-104 text-left font-semibold text-sm bg-white rounded-xl mt-2 shadow-md"
+                    >
                         <form action="#" method="POST" class="space-y-4 px-4 py-6">
                             <div>
                                 <textarea name="post_comment" id="post_comment" cols="30" rows="4" placeholder="go agead" 
@@ -76,15 +88,28 @@
                     </div>
                 </div>
 
-               <div class="relative">
-                    <button type="button" 
+               <div x-data="{ isOpen: false }" class="relative">
+                    <button 
+                        @click="isOpen = !isOpen"
+                        type="button" 
                         class="flex justify-center items-center mx-3 text-xs text-center w-28 h-11 rounded-xl font-semibold border text-gray-900 bg-gray-200 hover:border-gray-300 transition duration-150 ease-in">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                         </svg>
                         <span>set status</span>  
                     </button> 
-                    <div class="absolute z-10 w-104 text-left font-semibold text-sm bg-white rounded-xl mt-2 shadow-md">
+                    <div 
+                        x-cloak
+                        x-show="isOpen"
+                        x-transition:enter="transition ease-out duration-300"
+                        x-transition:enter-start="opacity-0 transform scale-90"
+                        x-transition:enter-end="opacity-100 transform scale-100"
+                        x-transition:leave="transition ease-in duration-300"
+                        x-transition:leave-start="opacity-100 transform scale-100"
+                        x-transition:leave-end="opacity-0 transform scale-90"
+                        @click.away="isOpen = false" 
+                        class="absolute z-20 w-104 text-left font-semibold text-sm bg-white rounded-xl mt-2 shadow-md"
+                    >
                         <form action="#" method="POST" class="space-y-4 px-4 py-6">
                             <div class="flex flex-col justify-between space-y-2">
                                 <label class="inline-flex items-center">

@@ -50,3 +50,7 @@
     left: -79px;
     z-index: 11;
 }
+
+[x-cloak] {
+    display: none !important;
+}
