@@ -12,7 +12,7 @@
 
         <!-- Styles -->
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-
+        <livewire:styles/>
         <!-- Scripts -->
         <script src="{{ asset('js/app.js') }}" defer></script>
     </head>
@@ -45,7 +45,7 @@
         </header>
         <main class="container mx-auto flex max-w-custom">
             <div class="mr-5 w-70">
-                <div class="border-2 border-blue rounded-xl mt-16 p-5 text-gray-900 bg-white">
+                <div class="border-2 sticky top-8 border-blue rounded-xl mt-16 p-5 text-gray-900 bg-white">
                     <div>
                         <h3 class="font-semibold text-center my-2">Add an idea</h3>
                         <p class="text-center text-xs">Let us know what you like and will review it</p> 
@@ -144,5 +144,7 @@
                 </div>
             </div>
         </main>
+        
     </body>
+     <livewire:scripts/>
 </html>
