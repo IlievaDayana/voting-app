@@ -51,7 +51,7 @@
                 </div>     
                 <div class="mt-8  flex-none">
                     <a href="">
-                        <img src="https://randomuser.me/api/portraits/women/22.jpg" alt="avatar" class="w-14 h-14 rounded-xl" >
+                        <img src="{{$idea->user->getAvatar() }}" alt="avatar" class="w-14 h-14 rounded-xl" >
                     </a>
                 </div>     
                 <div class="mx-4 w-full flex flex-col justify-between">
