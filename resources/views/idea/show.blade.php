@@ -31,8 +31,8 @@
                         <div class="text-gray-900">3 comments</div>  
                     </div>
                     <div class="flex items-center space-x-2 mb-6">
-                        <div class="bg-gray-200 text-xxs font-bold uppercase leading-none rounded-full text-center w-28 h-7 px-3 py-2">
-                            Open
+                        <div class="{{$idea->status->classes}} text-xxs font-bold uppercase leading-none rounded-full text-center w-28 h-7 px-3 py-2">
+                            {{ $idea->status->name}}
                         </div>
                         <button class="relative bg-gray-100 hover:bg-gray-200 rounded-full h-7 w-7 hover:border-gray-400 transition duration-150 ease-in">
                             &bull;&bull;&bull;
