@@ -47,6 +47,7 @@
             <div class="mr-5 w-70">
                 <div class="border-2 sticky top-8 border-blue rounded-xl mt-16 p-5 text-gray-900 bg-white">
                     @auth
+                    Please log in to create your first idea.
                         <livewire:create-idea />       
                     @else
                         <div class="flex items-center justify-between flex-col space-x-3 space-y-5">
