@@ -188,17 +188,26 @@
                     </form>
                 </div> 
         </div>
-
+@dd($hasVoted)
         </div>
         <div class="flex">
             <button type="button" 
-                class="flex justify-center items-center flex-col text-xs mx-2 text-center w-11 h-11 rounded-xl font-semibold  border border-gray-200 bg-white hover:border-gray-400 transition duration-150 ease-in">
+                class="flex justify-center items-center flex-col text-xs mx-2 text-center w-11 h-11 rounded-xl font-semibold  border border-gray-200 bg-white hover:border-gray-400 transition duration-150 ease-in @if($hasVoted) text-blue @endif">
                 {{$votesCount}} <span class="text-gray-400">votes</span> 
             </button>
-            <button type="button" 
-                class="flex justify-center items-center text-xs mx-3 w-28 h-11 text-center rounded-xl font-semibold border border-gray-200 bg-gray-200 hover:border-gray-400  transition duration-150 ease-in">
-                VOTE
-            </button>
+            @if ($hasVoted)
+                <button
+                    class="w-20 bg-blue text-white border border-blue font-bold text-xxs uppercase rounded-xl hover:bg-blue-hover transition duration-150 ease-in px-4 py-3 -mx-5"
+                >
+                    Voted
+                </button>
+            @else
+                <button
+                    class="w-20 bg-gray-200 border border-gray-200 font-bold text-xxs uppercase rounded-xl hover:border-gray-400 transition duration-150 ease-in px-4 py-3 -mx-5"
+                >
+                    Vote
+                </button>
+            @endif
         </div><!-- end buttons container -->       
     </div><!-- end buttons container -->
 </div><!-- end idea and button container -->

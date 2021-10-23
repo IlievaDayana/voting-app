@@ -12,16 +12,30 @@
     "
     class="idea-container bg-white rounded-xl flex hover:shadow-md transition duration-150 ease-in"
 >
+
     <div class="border-r border-gray-100 px-5 py-8">
         <div class="text-center">
-            <div class="font-semibold text-2xl">{{$idea->votes_count}}</div>
+            <div class="font-semibold text-2xl @if ($hasVoted) text-blue @endif">{{ $votesCount }}</div>
             <div class="text-gray-500">Votes</div>
         </div> 
         <div class="mt-8">
-            <button 
-                class="w-20 bg-gray-200 font-bold text-xxs uppercase rounded-xl px-4 py-3 border border-gray-200 hover:border-gray-400 transition duration-150 ease-in">
+            @if ($hasVoted)
+                class="w-20 bg-gray-200 border border-gray-200 font-bold text-xxs uppercase rounded-xl hover:border-gray-400 transition duration-150 ease-in px-4 py-3 -mx-5"
+                <button
+            >
+                    class="w-20 bg-blue text-white border border-blue font-bold text-xxs uppercase rounded-xl hover:bg-blue-hover transition duration-150 ease-in px-4 py-3 -mx-5"
                 Vote
+                >
             </button>
+                    Voted
+                </button>
+            @else
+                <button
+                    class="w-20 bg-gray-200 border border-gray-200 font-bold text-xxs uppercase rounded-xl hover:border-gray-400 transition duration-150 ease-in px-4 py-3 -mx-5"
+                >
+                    Vote
+                </button>
+            @endif
         </div>
     </div>     
     <div class="mt-8  flex-none">
